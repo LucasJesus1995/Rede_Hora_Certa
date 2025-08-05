@@ -1,0 +1,100 @@
+*{
+    font-family: Calibri, Arial, Verdana;
+    font-size: 12px;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust: exact;
+}
+
+td, th{
+    vertical-align: top;
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+h1{
+    font-size: 23px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h3{
+    padding: 0;
+    margin: 0 ;
+}
+
+th, th label{
+    font-weight: bold;
+    text-align: left;
+}
+
+th label{
+    display: block;
+}
+
+.formulario td{
+    border-bottom: 1px solid #ccc;
+}
+
+table.table-border tr td,
+.table-border{
+    border: 1px solid #000 !important;
+    border-bottom: none;
+}
+
+.table-border th, .table-border td{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.table-border th:first-child, .table-border td:first-child{
+    border-left: none;
+
+}
+
+.bloco{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+    border: 1px solid #000;
+}
+
+.bloco *{
+    font-size: 12px !important;
+}
+
+.bloco h2, table tr th.title{
+    background: #CCC  url('../image/bg-cinza.jpg') repeat !important;;
+    padding: 3px;
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: 1px solid #666;
+    text-transform: uppercase;
+    -webkit-print-color-adjust: exact;
+    font-weight: bold;
+}
+
+.even, .even td, .even td *, .even *{
+    backgroundr: none !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.odd, .odd td,  .odd td *, .odd *{
+    background: #F4F2F2  url('../image/bg-cinza-grid.jpg') repeat !important;
+    -webkit-print-color-adjust: exact;
+}
+
+table.no-border, .no-border, .no-border tr, .no-border tr td, .no-border tr th {
+    border: none !important;
+    border: 0px !important;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.align-center{
+    text-align: center !important;
+}

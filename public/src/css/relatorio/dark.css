@@ -1,0 +1,47 @@
+th.title{
+    padding: 20px !important;
+    font-size: 20px !important;
+    height: 30px !important;
+}
+
+th{
+    background-color: #7c7c7c;
+    color: #ffffff;
+    border: 1px solid #7c7c7c;
+    padding: 2px 10px;
+    text-align: center;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+tr.line td{
+    color: #292929;
+    border: 1px solid #7c7c7c;
+    padding: 2px 10px;
+}
+
+tr.odd th,
+tr.odd td{
+    background-color: #F5F5F5;
+}
+
+tr.even th,
+tr.even td{
+    background-color: #cccccc;
+}
+
+
+
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+

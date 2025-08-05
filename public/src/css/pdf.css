@@ -1,0 +1,517 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+html{
+    margin: 25px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    font-family: Helvetica !important;
+    font-size: 11px !important;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust: exact;
+}
+
+.font-small{
+    font-size: 8px !important;
+}
+
+
+h1{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+td, th{
+    vertical-align: top;
+    padding: 3px !important;
+    text-align: left;
+}
+
+title, th{
+    background: #CCC;
+    border-bottom: 1px solid #999;
+    font-weight: bold !important;
+}
+
+table th.sub-title{
+    background: #e5e5e5 !important;
+    border-color: #e5e5e5 !important;
+}
+
+.kit-impressao  td,
+.kit-impressao th
+{
+    font-size: 10px !important;
+}
+
+.kit-impressao th{
+    background: none !important;
+    border: none !important;
+}
+
+.line-td-bottom,
+table.line-td-bottom td{
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+b, strong{
+    font-weight: bold !important;
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+h1{
+    font-size: 18px !important;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold !important;
+}
+
+h1.title{
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0;
+    text-transform: uppercase;
+    background: #CCC;
+}
+
+h3{
+    padding: 0;
+    margin: 0 ;
+}
+
+
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.no-border *,
+tr.no-border td,
+table tr td.no-border,
+.no-border{
+    border: none !important;
+}
+
+.no-spacing{
+    padding: 0;
+    margin: 0;
+}
+
+.no-style, .no-style *{
+    border: none;
+    background: none;
+}
+
+.padding10{
+    padding: 10px !important;
+}
+
+.padding5{
+    padding: 5px !important;
+}
+
+.center{
+    text-align: center;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.footer {
+    font-size: 7px !important;
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    text-align: left;
+}
+
+.footer *{
+    font-size: 7px !important;
+}
+
+.footer .info{
+    font-size: 80% !important;
+    text-align: right;
+}
+
+.header{
+
+}
+
+.pagenum:before {
+    content: counter(page);
+    font-size: 7px !important;
+}
+.datetime {
+    font-size: 7px !important;
+}
+
+#laudo{
+    margin: 0 5px;
+    line-height: 16px;
+    text-align: justify;
+    font-size: 13px !important;
+}
+
+#laudo p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    text-align: justify;
+    font-size: 13px !important;
+}
+
+#laudo table,
+#laudo table tr,
+#laudo table tr td,
+#laudo table td p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    line-height: 14px !important;
+}
+
+.new-page{
+    page-break-before: right;
+}
+
+.size-card-cies{
+    width: 100% !important;
+    height: 408px !important;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.bg-cartao-cies{
+    background:  #D78A38 no-repeat top left !important;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+}
+
+.width-50{
+    width: 50%;
+}
+
+table.table-border tr td,
+table.table-border tr th,
+.table-border{
+    border: 1px solid #000 !important;
+    border-bottom: none;
+}
+
+.bloco{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+    border: 1px solid #000;
+}
+
+.bloco *{
+    font-size: 10px !important;
+}
+
+.bloco h2, table tr th.title{
+    padding: 3px;
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    -webkit-print-color-adjust: exact;
+    font-weight: bold;
+}
+
+.bloco h2,
+.bloco table tr th.title{
+    background: #CCC !important;
+}
+
+.even, .even td, .even td *, .even *{
+    background: none !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.odd, .odd td,  .odd td *, .odd *{
+    background: #E8E8E8 !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.align-center{
+    text-align: center !important;
+}
+
+span.quadrado{
+   padding: 4px !important;
+    border: 1px solid #000 !important;
+}
+
+
+.table-relatorio, .table-relatorio tr, .table-relatorio td, .table-relatorio th{
+    border: 1px solid #000;
+    border-spacing: 1px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.table-relatorio th{
+    background-color: #CCC;
+}
+
+.table-relatorio.no-border{
+    border: none !important;
+}
+
+.border-cinza,
+.border-cinza *{
+    border-color: #CCC !important;
+}
+
+.border-branca,
+.border-branca *{
+    border-color: #FFF !important;
+}
+
+.no-border-bottom{
+    border-bottom: none !important;
+}
+
+.no-border-left{
+    border-left: none !important;
+}
+
+.no-border-right{
+    border-right: none !important;
+}
+
+.no-border-top{
+    border-top: none !important;
+}
+
+.margin10{
+    margin: 10px;
+}
+
+table.table-kit-impressao{
+    width: 100% !important;
+}
+
+.line-height-14 td,
+.line-height-14 th,
+.line-height-14 *,
+.line-height-14{
+    line-height: 14px;
+}
+
+.line-height-16 td,
+.line-height-16 th,
+.line-height-16 *,
+.line-height-16{
+    line-height: 16px;
+}
+
+.line-height-18 td,
+.line-height-18 th,
+.line-height-18 *,
+.line-height-18{
+    line-height: 18px;
+}
+
+.line-height-20 td,
+.line-height-20 th,
+.line-height-20 *,
+.line-height-20{
+    line-height: 20px;
+}
+
+.line-height-22 td,
+.line-height-22 th,
+.line-height-22 *,
+.line-height-22{
+    line-height: 22px;
+}
+
+
+.paddingA5 {
+    padding: 0 5px 0 !important;
+}
+
+.marginA5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sub-table {
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    text-align: right;
+}
+
+.sub-table-item {
+    text-align: left;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.border,
+th.border,
+td.border,
+table.border td,
+table.border th {
+    /*border: 1px solid #B3B3B3;*/
+    border: 0.05em solid #000 !important;
+}
+
+table.border th {
+    border: 0.05em solid #000 !important;
+}
+
+div.box span.title {
+    font-size: 12px;
+    padding: 2px !important;
+    text-align: center !important;
+    background: #CCC !important;
+}
+
+div.box th {
+    background: none !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    color: #000 !important;
+}
+
+.ficha-autorizacao {
+
+}
+
+div.ficha-autorizacao .label-descricao {
+    position: relative;
+    border: 1px solid #000;
+    padding: 3px 5px !important;
+    margin: 3px 0px;
+    text-transform: uppercase !important;
+}
+
+div.ficha-autorizacao .label-descricao.line {
+    padding: 3px 0 !important;
+}
+
+div.ficha-autorizacao .label-descricao label {
+    position: absolute !important;
+    top: -4.3px !important;
+    font-size: 6px !important;
+    text-transform: uppercase !important;
+    left: 8px !important;
+    background: #FFF;
+    padding: 0 !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.label-descricao table {
+    margin-bottom: -3px !important;
+}
+
+.label-descricao table,
+.label-descricao table tr td {
+    border-spacing: 0 !important;
+    padding: 0 !important;
+}
+
+div.ficha-autorizacao table th {
+    background-color: #000 !important;
+    color: #FFF !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    margin: 0;
+    padding: 2px;
+}
+
+
+.font-contrato-size,
+.font-contrato-size *{
+    line-height: 16px !important;
+    font-size: 14px !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.box-line-data {
+    position: relative;
+}
+
+span.line-data-text{
+    position: absolute;
+    top: -22px !important;
+    left: 2px;
+    line-height: 23.1px;
+}

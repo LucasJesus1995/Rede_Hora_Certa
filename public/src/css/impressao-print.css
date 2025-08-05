@@ -1,0 +1,22 @@
+body {
+    -webkit-print-color-adjust: exact;
+}
+
+.table-relatorio, .table-relatorio tr, .table-relatorio td, .table-relatorio th{
+    border: 1px solid #000 !important;
+    border-spacing: 1px;
+    padding: 2px;
+}
+
+
+table.no-border, .no-border, .no-border tr, .no-border tr td, .no-border tr th {
+    border: none !important;
+    border: 0px !important;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.table-print-font-size, .table-print-font-size *{
+    font-size: 10px;
+}
