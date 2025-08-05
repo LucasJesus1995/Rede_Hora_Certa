@@ -1,0 +1,23 @@
+{
+    "name": "aprillins/litegrabber",
+    "description": "Grab content from a website using DOMXPath class in PHP",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "danielstjules/stringy": "~1.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aprillins",
+            "email": "aprillins@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aprillins\\LiteGrabber\\": "src"
+        }
+    }
+}

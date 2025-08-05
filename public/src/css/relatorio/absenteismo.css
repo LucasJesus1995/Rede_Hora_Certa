@@ -1,0 +1,63 @@
+th.title{
+    padding: 20px !important;
+    font-size: 20px !important;
+    height: 30px !important;
+}
+
+th{
+    background-color: #5cb4ce;
+    color: #000;
+    border: 1px solid #000;
+    padding: 2px 10px;
+    text-align: center;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+tr.line td{
+    color: #000;
+    border: 1px solid #000;
+    padding: 2px 10px;
+}
+
+tr.odd th,
+tr.odd td{
+    background-color: #ADD8E6;
+}
+
+tr.even th,
+tr.even td{
+    background-color: #87CEEB;
+    position: relative;
+}
+
+tr.odd td.total{
+    background-color: #93bdc9;
+}
+
+tr.even td.total{
+    background-color: #64aec9;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    position: absolute;
+    left: 0;
+}
+
+

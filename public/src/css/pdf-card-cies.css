@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 80%;
+
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+html,
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background:  #FFF !important;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 12px !important;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust: exact;
+}
+
+.new-page {
+    page-break-before: right;
+
+}
+
+.size-card{
+    width: 100% !important;
+    height: 408px !important;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.bg-card{
+    background:  url('/src/image/card/bg-card.png') no-repeat top left !important;
+}
+.bg-card-front{
+    background: #FFF url('/src/image/card/bg-card-front.png') no-repeat top left !important;
+}
+
+.logo-cies-usa{
+    position: absolute;
+    bottom: 130px;
+    left: 40px;
+    width: 220px;
+    background: #4ea33f;
+}
+
+.logo-cies-usa-front{
+    position: absolute;
+    bottom: 200px;
+    right: 45px;
+    width: 265px;
+}
+
+.url-site{
+    position: absolute;
+    bottom: 83px;
+    right: 50px;
+    width: 165px;
+    vertical-align: middle;
+    background: #4ea33f;
+    color: #fff;
+    font-size: 16px !important;
+    text-space: 20px;
+    text-align: right;
+}
+
+.box .box-container-text{
+    background: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    padding: 12px;
+    opacity: 0.90;
+    filter: alpha(opacity=90);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 21px !important;
+    font-weight: bold;
+}
+
+.container-code {
+    margin-left: 385px;
+}
+
+.container-code .box-container-text {
+    margin-bottom: 5px !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    text-align: center;
+}
+
+.box span{
+    color: #ce6b1f !important;
+    font-size: 16px !important;
+    background-color: #FFF;
+}
+
+.box{
+    margin: 50px;
+}
+
+.box .url-site-front{
+    text-align: right;
+    color: #ce6b1f !important;
+    font-size: 16px !important;
+    background: none !important;
+    margin-top: -10px;
+}
+
+.box .url-site-front span{
+    color: #5c963b !important;
+    background: none !important;
+}
+
+.bg-card-frente {
+    background:  url('/src/image/card/cies/bg-detalhes-cobrinha.png') repeat-y 5px -5px !important;
+}
+
+
+.position-relative {
+    position: relative;
+}
+
+.img-logo-ciesglobal {
+    position: absolute;
+    bottom: 130px;
+    right: 270px;
+}
+
+.bg-card-verso {
+    background: #FFF;
+    background:  url('/src/image/card/cies/bg-verso.png') no-repeat 0 bottom  !important;
+}
+
+.card-descricao-nome{
+    top: 86px;
+    left: 47px;
+}
+
+.card-descricao-cpf{
+    top: 192px;
+    left: 47px;
+}
+
+.card-uso-pessoal {
+    font-size: 18px !important;
+    font-weight: normal;
+    color: #666 !important;
+    top: 30px;
+    right: 50px;
+    position: absolute;
+    text-align: right;
+}
+
+.card-descricao {
+     position: absolute;
+     text-transform: uppercase;
+     font-size: 25px !important;
+     color: #000 !important;
+     font-weight: normal;
+ }
+
+
+.card-codigo-barras{
+    position: absolute;
+    top: 72px;
+    right: 42px;
+}
